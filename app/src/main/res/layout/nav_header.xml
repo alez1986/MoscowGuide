@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="192dp"
+    android:layout_height="@dimen/header_height"
     android:background="@color/colorPrimaryDark"
-    android:paddingLeft="16dp"
-    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/padding"
+    android:paddingBottom="@dimen/padding_bottom"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical"
     android:gravity="bottom">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circleView"
-        android:layout_width="114dp"
-        android:layout_height="138dp"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/margin"
         android:src="@drawable/basil" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:text="Moscow friendly guide"
         android:layout_alignParentBottom="true"
-        android:textSize="18dp"
+        android:textSize="@dimen/menu_item_text_size"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
 </RelativeLayout>
