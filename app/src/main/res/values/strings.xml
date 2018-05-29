@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Moscow Guide</string>
+
+    <string name="category_restaraunt">Restaraunts</string>
+    <string name="category_park">Parks</string>
+    <string name="category_museum">Museums</string>
+    <string name="category_site">Sites</string>
+    <string name="category_club">Clubs</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <string name="title_park_kultury">Park kultury</string>
+    <string name="title_park_museon">Museon</string>
+    <string name="title_park_vdnh">VDNH</string>
+    <string name="title_park_ogorod">Aptekarskiy ogorod</string>
+    <string name="title_park_pobedy">Park pobedy</string>
+    <string name="title_park_zaryadie">Zaryadie</string>
+
+    <string name="title_museum_tretyakov">Tretyakov gallery</string>
+    <string name="title_museum_pushkin">Pushkin museum</string>
+    <string name="title_museum_palata">Orujeinaya palata</string>
+    <string name="title_museum_fond">Almazniy fond</string>
+
+    <string name="title_site_bagration">Bagration bridge</string>
+    <string name="title_site_square">Red square</string>
+    <string name="title_site_mgu">Vorobievy gory</string>
+    <string name="title_site_kanal">Grebnoy kanal</string>
+
+    <string name="title_club_mono">Mono bar</string>
+    <string name="title_club_cs">Central station</string>
+    <string name="title_club_bar19">Bar 19</string>
+    <string name="title_club_mart">Mart cafe</string>
+
+    <string name="title_rest_propaganda">Propaganda</string>
+    <string name="title_rest_rabbit">White rabbit</string>
+    <string name="title_rest_moloko">Moloko</string>
+    <string name="title_rest_kvartira">Kvartira 44</string>
+    <string name="title_rest_schastie">Schastie</string>
+    <string name="title_rest_grabli">Grabli</string>
+
+
+    <string name="address_park_kultury">Krymskiy val, 9</string>
+    <string name="address_park_museon">Krymskiy val, vl.2</string>
+    <string name="address_park_vdnh">Prospekt Mira, 119</string>
+    <string name="address_park_ogorod">Prospekt Mira, 26</string>
+    <string name="address_park_pobedy">Prospekt Pobedy, 3G</string>
+    <string name="address_park_zaryadie">ul. Varvarka</string>
+
+    <string name="address_museum_tretyakov">Lavrushenskiy per., 10</string>
+    <string name="address_museum_pushkin">ul. Volhonka, 12</string>
+    <string name="address_museum_palata">Moscow kremlin</string>
+    <string name="address_museum_fond">Moscow kremlin</string>
+
+    <string name="address_site_bagration">nab. Tarasa Shevchenko</string>
+    <string name="address_site_square">Krasnaya pl.</string>
+    <string name="address_site_mgu">Vorobievy gory</string>
+    <string name="address_site_kanal">Krylatskaya ul., 2</string>
+
+    <string name="address_club_mono">Pokrovskiy bulvar 6/20</string>
+    <string name="address_club_cs">ul. Leninskaya sloboda, 19/2</string>
+    <string name="address_club_bar19">ul. Pokrovka, 19</string>
+    <string name="address_club_mart">ul. Petrovka, 25/1</string>
+
+    <string name="address_rest_propaganda">Bolshoy Zlatoustinskiy per., 7</string>
+    <string name="address_rest_rabbit">Smolenskaya pl., 3</string>
+    <string name="address_rest_moloko">Bolshaya Dmitrovka 7/5</string>
+    <string name="address_rest_kvartira">ul. Malaya Yakimanka, 24/8</string>
+    <string name="address_rest_schastie">Bolshoy Putinkovskiy per., 5, 3rd floor</string>
+    <string name="address_rest_grabli">Teatralniy pr., 5/1</string>
+
+
+    <string name="descr_park_kultury">Парк культуры</string>
+    <string name="descr_park_museon">Парк Музеон</string>
+    <string name="descr_park_vdnh">Выставка достижений народного хозяйсва (ВДНХ)</string>
+    <string name="descr_park_ogorod">Аптекарский огород</string>
+    <string name="descr_park_pobedy">Парк Победы</string>
+    <string name="descr_park_zaryadie">Парк Зарядье</string>
+
+    <string name="descr_museum_tretyakov">Третьяковская галерея</string>
+    <string name="descr_museum_pushkin">Музей имени Пушкина</string>
+    <string name="descr_museum_palata">Оружейная палата</string>
+    <string name="descr_museum_fond">Алмазный фонд</string>
+
+    <string name="descr_site_bagration">Смотровая площадка возле моста Багратион</string>
+    <string name="descr_site_square">Красная площадь</string>
+    <string name="descr_site_mgu">Воробьевы горы и МГУ</string>
+    <string name="descr_site_kanal">Крылатские холмы и гребной канал</string>
+
+    <string name="descr_club_mono">Моно бар</string>
+    <string name="descr_club_cs">Центральная станция</string>
+    <string name="descr_club_bar19">Бар 19</string>
+    <string name="descr_club_mart">Кафе Март</string>
+
+    <string name="descr_rest_propaganda">Пропаганда</string>
+    <string name="descr_rest_rabbit">Белый кролик</string>
+    <string name="descr_rest_moloko">Молоко</string>
+    <string name="descr_rest_kvartira">Квартира 44</string>
+    <string name="descr_rest_schastie">Счастье</string>
+    <string name="descr_rest_grabli">Грабли</string>
+
+</resources>
