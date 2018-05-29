@@ -19,26 +19,25 @@ public class PlaceAdapter extends ArrayAdapter<Place>  {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.place_item, parent, false);
         }
 
         Place currentPlace = getItem(position);
 
-        TextView titleTextView = (TextView) listItemView.findViewById(R.id.place_title);
+        TextView titleTextView = (TextView) convertView.findViewById(R.id.place_title);
         titleTextView.setText(currentPlace.getTitleResourceId());
 
-        TextView addressTextView = (TextView) listItemView.findViewById(R.id.place_address);
+        TextView addressTextView = (TextView) convertView.findViewById(R.id.place_address);
         addressTextView.setText(currentPlace.getAddressResourceId());
 
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.place_description);
+        TextView descriptionTextView = (TextView) convertView.findViewById(R.id.place_description);
         descriptionTextView.setText(currentPlace.getDescriptionResourceId());
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.image);
         imageView.setImageResource(currentPlace.getImageResourceId());
 
-        return listItemView;
+        return convertView;
     }
 }
